@@ -28,6 +28,7 @@ function* fetch() {
       yield effects.put({
         type: action.returnAction,
         payload: results,
+        tab: action.tab,
       });
     } else {
       yield effects.put({

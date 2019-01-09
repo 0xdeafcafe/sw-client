@@ -26,6 +26,7 @@ class Home extends Component {
 
 	switchTab(tab) {
 		this.setState({ tab });
+		this.props.fetch(tab, consts.FETCH_CONTENT_SUCCESS, tab);
 	}
 
 	renderRoots() {
@@ -58,7 +59,13 @@ class Home extends Component {
 							tabId={k}
 							key={k}
 						>
-							<code>{'todo: load resource table'}</code>
+							{this.state.tab && 
+							this.props.roots && 
+							this.props.roots[this.state.tab] && 
+							this.props.roots[this.state.tab].results && 
+							this.props.roots[this.state.tab].results.map((object, key) => (
+								<div key={key}>{JSON.stringify(object)}</div>
+							))}
 						</TabPane>
 					))}
 				</TabContent>
@@ -82,10 +89,11 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps, (dispatch) => ({
-	fetch: (root, returnAction) => dispatch({
+	fetch: (root, returnAction, tab = null) => dispatch({
 		type: consts.FETCH_ROOTS,
 		root,
 		returnAction,
+		tab,
 	}),
 })
 )(Home);
