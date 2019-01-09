@@ -10,6 +10,7 @@ import {
 } from 'reactstrap';
 import React, { Component } from 'react';
 import * as consts from './../../constants';
+import Loader from './Loader';
 
 class Home extends Component {
 	constructor(props) {
@@ -79,6 +80,7 @@ class Home extends Component {
 				<h1>{'My little Star Wars app 👾'}</h1>
 
 				{this.renderRoots()}
+				{this.props.roots.isLoading && (<Loader/>)}
 			</div>
 		);
 	}
