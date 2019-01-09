@@ -1,6 +1,5 @@
 import classnames from 'classnames';
 import { connect } from 'react-redux';
-import { fetchRoots } from '../../actions';
 import sentenceCase from 'sentence-case';
 import {
 	Nav,
@@ -10,6 +9,7 @@ import {
 	TabPane,
 } from 'reactstrap';
 import React, { Component } from 'react';
+import * as consts from './../../constants';
 
 class Home extends Component {
 	constructor(props) {
@@ -21,9 +21,7 @@ class Home extends Component {
 	}
 
 	componentDidMount() {
-		const { dispatch } = this.props;
-
-		dispatch(fetchRoots());
+		this.props.fetch('', consts.FETCH_ROOTS_SUCCESS);
 	}
 
 	switchTab(tab) {
@@ -83,4 +81,11 @@ const mapStateToProps = (state) => ({
 	roots: state.roots,
 });
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps, (dispatch) => ({
+	fetch: (root, returnAction) => dispatch({
+		type: consts.FETCH_ROOTS,
+		root,
+		returnAction,
+	}),
+})
+)(Home);
