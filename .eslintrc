@@ -8,13 +8,8 @@
 	],
 
 	"env": {
-		"node": true
-	},
-
-	"globals": {
-		"Promise": false,
-		"Set": false,
-		"Map": false
+		"node": false,
+		"browser": true
 	},
 
 	"parserOptions": {
@@ -108,7 +103,7 @@
 		"consistent-this": [1, "that"],
 		"eol-last": 1,
 		"func-names": 1,
-		"func-style": [1, "declaration"],
+		"func-style": [1, "declaration", { "allowArrowFunctions": true }],
 		"id-blacklist": [1, "err", "cb", "data"],
 		"indent": [1, "tab", { "SwitchCase": 1 }],
 		"jsx-quotes": 1,
@@ -170,7 +165,7 @@
 		"prefer-spread": 1,
 		"prefer-template": 1,
 		"require-yield": 1,
-		"sort-imports": [1, { "memberSyntaxSortOrder": ["none", "single", "all", "multiple"] }],
+		"sort-imports": [1, { "memberSyntaxSortOrder": ["single", "all", "multiple", "none"] }],
 		"template-curly-spacing": 1,
 		"yield-star-spacing": 1,
 
@@ -198,14 +193,10 @@
 		"react/no-multi-comp": 1,
 		"react/no-unknown-property": 1,
 		"react/prefer-es6-class": 1,
-		"react/prop-types": 1,
+		"react/prop-types": 0,
 		"react/react-in-jsx-scope": 1,
 		"react/self-closing-comp": 1,
 		"react/sort-comp": 1,
 		"react/sort-prop-types": 1,
-
-		"flowtype/define-flow-type": 1,
-		"flowtype/object-type-delimiter": [1, "semicolon"],
-		"flowtype/use-flow-type": 1
 	}
 }

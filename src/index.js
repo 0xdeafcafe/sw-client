@@ -1,17 +1,24 @@
-import App from './Components/App';
-import Home from './Components/Home';
-import createStore from './store';
+import App from './components/App';
+import Home from './components/Home';
+import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import './index.css';
+import { createGlobalStyle } from 'styled-components';
+import createStore from './store';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+const GlobalStyle = createGlobalStyle`
+	body {
+		margin: 0;
+		padding: 0;
+	}
+`;
 
 const routes = (
 	<Provider store={createStore()}>
 		<Router>
+			<GlobalStyle />
 			<App>
 				<Switch>
 					<Route

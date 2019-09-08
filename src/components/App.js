@@ -9,7 +9,7 @@ const App = ({ children }) => (
 		>
 			<NavbarBrand href={'/'}>{'Star Wars Client'}</NavbarBrand>
 		</Navbar>
-		
+
 		<Container className={'pt-5'}>
 			{children}
 		</Container>

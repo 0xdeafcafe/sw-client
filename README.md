@@ -2,7 +2,6 @@
 
 This is a simple React app for ingesting the [Star Wars API](https://swapi.co/).
 
-
 ## Build setup
 
 ```bash
@@ -12,10 +11,9 @@ yarn
 # start server
 yarn start
 
-# check tests? 👀
+# check tests ✅
 yarn test
 ```
-
 
 ## Overview
 
@@ -24,29 +22,25 @@ As this is a simple consume website for the Star Wars API - there are a few thin
 1. View all root types, and the resources inside them
 2. Click though and see a detailed breakdown of the information on each resource type
 3. Easily access other linked resources
-4. Favorite a resource type - this must persist after page refresh however it doesn't need to be stored on a server, it can be stored _locally_
+4. Favorite a resource type - this must persist after page refresh however it doesn't need to be stored on a server
 
+## Requirements
 
-## Core requirements
-
-- Show a good understanding of core ES6 syntax
-- Be responsive
-- Have loading states - this is a good place to showcase your animation skills 😉
-- Must work flawlessly in all of the major browsers (Chrome, Safari, IE11, and Edge)
-
+- The codebase must be migrated to TypeScript
+- The interface has to be responsive
+- There must be full end-to-end unit tests using Jest
+- Loading states while the data is being fetched
+- As important as the feature set is, keeping coding standards and code consistency is key
 
 ## Design
 
-- This isn't an exercise in design, but a good understanding of basic UX principles will be a very strong bonus.
+- This isn't an exercise in design, but a good understanding of basic UX principles will be a very strong bonus
 - This is Star Wars isn't it? Have some fun! 🚀 👽
-
 
 ## Brownie points
 
 - Use redux sagas 📖
-- SASS (.scss syntax) 💃
 - Inline resource filtering 🕵🏻‍♀️
-- Unit tests 👩‍🔬
-
+- Animations on the loading states (lottie?) ⚛️
 
 Have fun, we look forward to seeing what you've come up with.
