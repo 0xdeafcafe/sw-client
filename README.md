@@ -26,7 +26,6 @@ As this is a simple consume website for the Star Wars API - there are a few thin
 
 ## Requirements
 
-- The codebase must be migrated to TypeScript
 - The interface has to be responsive
 - There must be full end-to-end unit tests using Jest
 - Loading states while the data is being fetched
@@ -39,6 +38,7 @@ As this is a simple consume website for the Star Wars API - there are a few thin
 
 ## Brownie points
 
+- Add type support by migrating to TypeScript 🏗
 - Use redux sagas 📖
 - Inline resource filtering 🕵🏻‍♀️
 - Animations on the loading states (lottie?) ⚛️
