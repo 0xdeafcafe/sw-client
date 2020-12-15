@@ -26,21 +26,22 @@ As this is a simple consume website for the Star Wars API - there are a few thin
 
 ## Requirements
 
-- The interface has to be responsive
-- There must be full end-to-end unit tests using Jest
+- The UI has to be responsive
+- There must be test coverage using Jest
 - Loading states while the data is being fetched
 - As important as the feature set is, keeping coding standards and code consistency is key
+- Use redux sagas
+- Add type support by migrating to TypeScript
 
 ## Design
 
-- This isn't an exercise in design, but a good understanding of basic UX principles will be a very strong bonus
+- A good understanding of basic UX principles, and showing that user flow and key actions have been thought through throughly.
 - This is Star Wars isn't it? Have some fun! 🚀 👽
 
 ## Brownie points
 
-- Add type support by migrating to TypeScript 🏗
-- Use redux sagas 📖
 - Inline resource filtering 🕵🏻‍♀️
-- Animations on the loading states (lottie?) ⚛️
+- Animations on the loading states ⚛️
+- Very clean and modular styled components 🛀
 
 Have fun, we look forward to seeing what you've come up with.
