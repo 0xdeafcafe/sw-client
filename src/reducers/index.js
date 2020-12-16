@@ -13,15 +13,15 @@ export default combineReducers({
 					isLoading: false,
 					error: action.payload,
 				};
-			
+
 			case FETCH_ROOTS_SUCCESS:
 				return {
 					isLoading: false,
 					payload: action.payload,
 				};
-			
+
 			default:
 				return state;
 		}
-	}
+	},
 });
