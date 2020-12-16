@@ -21,6 +21,12 @@
 		}
 	},
 
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+
 	"rules": {
 		"comma-dangle": [1, "always-multiline"],
 		"no-unsafe-finally": 1,
