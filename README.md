@@ -1,6 +1,6 @@
 # Star Wars Client
 
-This is a simple React app for ingesting the [Star Wars API](https://swapi.co/).
+This is a simple React app for ingesting the [Star Wars API](https://swapi.dev/).
 
 ## Build setup
 
