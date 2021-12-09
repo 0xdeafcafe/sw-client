@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<RootDisplay
+  currentRoot="Vehicles"
+  item={
+    Object {
+      "characters": Array [],
+      "created": "",
+      "director": "",
+      "edited": "",
+      "episode_id": 0,
+      "opening_crawl": "",
+      "planets": Array [],
+      "producer": "",
+      "release_date": "",
+      "species": Array [],
+      "starships": Array [],
+      "title": "",
+      "url": "",
+      "vehicles": Array [],
+    }
+  }
+/>
+`;

@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<ItemAccordion
+  currentRoot=""
+  item={
+    Object {
+      "characters": Array [],
+      "created": "",
+      "director": "",
+      "edited": "",
+      "episode_id": 0,
+      "opening_crawl": "",
+      "planets": Array [],
+      "producer": "",
+      "release_date": "",
+      "species": Array [],
+      "starships": Array [],
+      "title": "",
+      "url": "",
+      "vehicles": Array [],
+    }
+  }
+>
+  <div>
+    <ForwardRef(Accordion)
+      style={
+        Object {
+          "background": "#F8F9FA",
+          "margin": "10px",
+        }
+      }
+    >
+      <MuiAccordionRoot
+        className="MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters"
+        ownerState={
+          Object {
+            "children": Array [
+              <ForwardRef(AccordionSummary)
+                aria-controls="panel1a-content"
+                expandIcon={<UNDEFINED />}
+                id="panel1a-header"
+              >
+                <p />
+              </ForwardRef(AccordionSummary)>,
+              <ForwardRef(AccordionDetails)>
+                <RootDisplay
+                  currentRoot=""
+                  item={
+                    Object {
+                      "characters": Array [],
+                      "created": "",
+                      "director": "",
+                      "edited": "",
+                      "episode_id": 0,
+                      "opening_crawl": "",
+                      "planets": Array [],
+                      "producer": "",
+                      "release_date": "",
+                      "species": Array [],
+                      "starships": Array [],
+                      "title": "",
+                      "url": "",
+                      "vehicles": Array [],
+                    }
+                  }
+                />
+              </ForwardRef(AccordionDetails)>,
+            ],
+            "disableGutters": false,
+            "disabled": false,
+            "expanded": false,
+            "square": false,
+            "style": Object {
+              "background": "#F8F9FA",
+              "margin": "10px",
+            },
+          }
+        }
+        square={false}
+        style={
+          Object {
+            "background": "#F8F9FA",
+            "margin": "10px",
+          }
+        }
+      >
+        <Noop />
+        <ForwardRef(Paper)
+          className="MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1xu1s89-MuiAccordion-root"
+          square={false}
+          style={
+            Object {
+              "background": "#F8F9FA",
+              "margin": "10px",
+            }
+          }
+        >
+          <MuiPaperRoot
+            as="div"
+            className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1xu1s89-MuiAccordion-root"
+            ownerState={
+              Object {
+                "children": Array [
+                  <Context.Provider
+                    value={
+                      Object {
+                        "disableGutters": false,
+                        "disabled": false,
+                        "expanded": false,
+                        "toggle": [Function],
+                      }
+                    }
+                  >
+                    <ForwardRef(AccordionSummary)
+                      aria-controls="panel1a-content"
+                      expandIcon={<UNDEFINED />}
+                      id="panel1a-header"
+                    >
+                      <p />
+                    </ForwardRef(AccordionSummary)>
+                  </Context.Provider>,
+                  <ForwardRef(Collapse)
+                    in={false}
+                    timeout="auto"
+                  >
+                    <div
+                      aria-labelledby="panel1a-header"
+                      className="MuiAccordion-region"
+                      id="panel1a-content"
+                      role="region"
+                    >
+                      <ForwardRef(AccordionDetails)>
+                        <RootDisplay
+                          currentRoot=""
+                          item={
+                            Object {
+                              "characters": Array [],
+                              "created": "",
+                              "director": "",
+                              "edited": "",
+                              "episode_id": 0,
+                              "opening_crawl": "",
+                              "planets": Array [],
+                              "producer": "",
+                              "release_date": "",
+                              "species": Array [],
+                              "starships": Array [],
+                              "title": "",
+                              "url": "",
+                              "vehicles": Array [],
+                            }
+                          }
+                        />
+                      </ForwardRef(AccordionDetails)>
+                    </div>
+                  </ForwardRef(Collapse)>,
+                ],
+                "className": "MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1xu1s89-MuiAccordion-root",
+                "component": "div",
+                "elevation": 1,
+                "square": false,
+                "style": Object {
+                  "background": "#F8F9FA",
+                  "margin": "10px",
+                },
+                "variant": "elevation",
+              }
+            }
+            style={
+              Object {
+                "background": "#F8F9FA",
+                "margin": "10px",
+              }
+            }
+          >
+            <Noop />
+            <div
+              className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1elwnq4-MuiPaper-root-MuiAccordion-root"
+              style={
+                Object {
+                  "background": "#F8F9FA",
+                  "margin": "10px",
+                }
+              }
+            >
+              <ForwardRef(AccordionSummary)
+                aria-controls="panel1a-content"
+                expandIcon={<UNDEFINED />}
+                id="panel1a-header"
+                key=".0"
+              >
+                <MuiAccordionSummaryRoot
+                  aria-controls="panel1a-content"
+                  aria-expanded={false}
+                  className="MuiAccordionSummary-root MuiAccordionSummary-gutters"
+                  component="div"
+                  disableRipple={true}
+                  disabled={false}
+                  focusRipple={false}
+                  focusVisibleClassName="Mui-focusVisible"
+                  id="panel1a-header"
+                  onClick={[Function]}
+                  ownerState={
+                    Object {
+                      "aria-controls": "panel1a-content",
+                      "children": <p />,
+                      "disableGutters": false,
+                      "disabled": false,
+                      "expandIcon": <UNDEFINED />,
+                      "expanded": false,
+                      "id": "panel1a-header",
+                    }
+                  }
+                >
+                  <Noop />
+                  <ForwardRef(ButtonBase)
+                    aria-controls="panel1a-content"
+                    aria-expanded={false}
+                    className="MuiAccordionSummary-root MuiAccordionSummary-gutters css-1azetr9-MuiAccordionSummary-root"
+                    component="div"
+                    disableRipple={true}
+                    disabled={false}
+                    focusRipple={false}
+                    focusVisibleClassName="Mui-focusVisible"
+                    id="panel1a-header"
+                    onClick={[Function]}
+                  >
+                    <MuiButtonBaseRoot
+                      aria-controls="panel1a-content"
+                      aria-expanded={false}
+                      as="div"
+                      className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1azetr9-MuiAccordionSummary-root"
+                      id="panel1a-header"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onContextMenu={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      ownerState={
+                        Object {
+                          "aria-controls": "panel1a-content",
+                          "aria-expanded": false,
+                          "centerRipple": false,
+                          "children": Array [
+                            <ForwardRef
+                              className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters"
+                              ownerState={
+                                Object {
+                                  "aria-controls": "panel1a-content",
+                                  "children": <p />,
+                                  "disableGutters": false,
+                                  "disabled": false,
+                                  "expandIcon": <UNDEFINED />,
+                                  "expanded": false,
+                                  "id": "panel1a-header",
+                                }
+                              }
+                            >
+                              <p />
+                            </ForwardRef>,
+                            <ForwardRef
+                              className="MuiAccordionSummary-expandIconWrapper"
+                              ownerState={
+                                Object {
+                                  "aria-controls": "panel1a-content",
+                                  "children": <p />,
+                                  "disableGutters": false,
+                                  "disabled": false,
+                                  "expandIcon": <UNDEFINED />,
+                                  "expanded": false,
+                                  "id": "panel1a-header",
+                                }
+                              }
+                            >
+                              <UNDEFINED />
+                            </ForwardRef>,
+                          ],
+                          "className": "MuiAccordionSummary-root MuiAccordionSummary-gutters css-1azetr9-MuiAccordionSummary-root",
+                          "component": "div",
+                          "disableRipple": true,
+                          "disableTouchRipple": false,
+                          "disabled": false,
+                          "focusRipple": false,
+                          "focusVisible": false,
+                          "focusVisibleClassName": "Mui-focusVisible",
+                          "id": "panel1a-header",
+                          "onClick": [Function],
+                          "tabIndex": 0,
+                        }
+                      }
+                      role="button"
+                      tabIndex={0}
+                    >
+                      <Noop />
+                      <div
+                        aria-controls="panel1a-content"
+                        aria-expanded={false}
+                        className="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root"
+                        id="panel1a-header"
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        <MuiAccordionSummaryContent
+                          className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters"
+                          ownerState={
+                            Object {
+                              "aria-controls": "panel1a-content",
+                              "children": <p />,
+                              "disableGutters": false,
+                              "disabled": false,
+                              "expandIcon": <UNDEFINED />,
+                              "expanded": false,
+                              "id": "panel1a-header",
+                            }
+                          }
+                        >
+                          <Noop />
+                          <div
+                            className="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-o4b71y-MuiAccordionSummary-content"
+                          >
+                            <p />
+                          </div>
+                        </MuiAccordionSummaryContent>
+                        <MuiAccordionSummaryExpandIconWrapper
+                          className="MuiAccordionSummary-expandIconWrapper"
+                          ownerState={
+                            Object {
+                              "aria-controls": "panel1a-content",
+                              "children": <p />,
+                              "disableGutters": false,
+                              "disabled": false,
+                              "expandIcon": <UNDEFINED />,
+                              "expanded": false,
+                              "id": "panel1a-header",
+                            }
+                          }
+                        >
+                          <Noop />
+                          <div
+                            className="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+                          >
+                            <ForwardRef(ExpandMoreIcon)>
+                              <ForwardRef(SvgIcon)
+                                data-testid="ExpandMoreIcon"
+                              >
+                                <MuiSvgIconRoot
+                                  aria-hidden={true}
+                                  as="svg"
+                                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium"
+                                  data-testid="ExpandMoreIcon"
+                                  focusable="false"
+                                  ownerState={
+                                    Object {
+                                      "children": <path
+                                        d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                      />,
+                                      "color": "inherit",
+                                      "component": "svg",
+                                      "data-testid": "ExpandMoreIcon",
+                                      "fontSize": "medium",
+                                      "viewBox": "0 0 24 24",
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <Noop />
+                                  <svg
+                                    aria-hidden={true}
+                                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                    data-testid="ExpandMoreIcon"
+                                    focusable="false"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                    />
+                                  </svg>
+                                </MuiSvgIconRoot>
+                              </ForwardRef(SvgIcon)>
+                            </ForwardRef(ExpandMoreIcon)>
+                          </div>
+                        </MuiAccordionSummaryExpandIconWrapper>
+                      </div>
+                    </MuiButtonBaseRoot>
+                  </ForwardRef(ButtonBase)>
+                </MuiAccordionSummaryRoot>
+              </ForwardRef(AccordionSummary)>
+              <ForwardRef(Collapse)
+                in={false}
+                timeout="auto"
+              >
+                <Transition
+                  addEndListener={[Function]}
+                  appear={false}
+                  enter={true}
+                  exit={true}
+                  in={false}
+                  mountOnEnter={false}
+                  nodeRef={
+                    Object {
+                      "current": <div
+                        class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                        style="min-height: 0px;"
+                      >
+                        <div
+                          class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                        >
+                          <div
+                            class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                          >
+                            <div
+                              aria-labelledby="panel1a-header"
+                              class="MuiAccordion-region"
+                              id="panel1a-content"
+                              role="region"
+                            >
+                              <div
+                                class="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>,
+                    }
+                  }
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={null}
+                  unmountOnExit={false}
+                >
+                  <MuiCollapseRoot
+                    className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden"
+                    ownerState={
+                      Object {
+                        "children": <div
+                          aria-labelledby="panel1a-header"
+                          className="MuiAccordion-region"
+                          id="panel1a-content"
+                          role="region"
+                        >
+                          <ForwardRef(AccordionDetails)>
+                            <RootDisplay
+                              currentRoot=""
+                              item={
+                                Object {
+                                  "characters": Array [],
+                                  "created": "",
+                                  "director": "",
+                                  "edited": "",
+                                  "episode_id": 0,
+                                  "opening_crawl": "",
+                                  "planets": Array [],
+                                  "producer": "",
+                                  "release_date": "",
+                                  "species": Array [],
+                                  "starships": Array [],
+                                  "title": "",
+                                  "url": "",
+                                  "vehicles": Array [],
+                                }
+                              }
+                            />
+                          </ForwardRef(AccordionDetails)>
+                        </div>,
+                        "collapsedSize": "0px",
+                        "in": false,
+                        "orientation": "vertical",
+                        "state": "exited",
+                        "timeout": "auto",
+                      }
+                    }
+                    style={
+                      Object {
+                        "minHeight": "0px",
+                      }
+                    }
+                  >
+                    <Noop />
+                    <div
+                      className="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+                      style={
+                        Object {
+                          "minHeight": "0px",
+                        }
+                      }
+                    >
+                      <MuiCollapseWrapper
+                        className="MuiCollapse-wrapper MuiCollapse-vertical"
+                        ownerState={
+                          Object {
+                            "children": <div
+                              aria-labelledby="panel1a-header"
+                              className="MuiAccordion-region"
+                              id="panel1a-content"
+                              role="region"
+                            >
+                              <ForwardRef(AccordionDetails)>
+                                <RootDisplay
+                                  currentRoot=""
+                                  item={
+                                    Object {
+                                      "characters": Array [],
+                                      "created": "",
+                                      "director": "",
+                                      "edited": "",
+                                      "episode_id": 0,
+                                      "opening_crawl": "",
+                                      "planets": Array [],
+                                      "producer": "",
+                                      "release_date": "",
+                                      "species": Array [],
+                                      "starships": Array [],
+                                      "title": "",
+                                      "url": "",
+                                      "vehicles": Array [],
+                                    }
+                                  }
+                                />
+                              </ForwardRef(AccordionDetails)>
+                            </div>,
+                            "collapsedSize": "0px",
+                            "in": false,
+                            "orientation": "vertical",
+                            "state": "exited",
+                            "timeout": "auto",
+                          }
+                        }
+                      >
+                        <Noop />
+                        <div
+                          className="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+                        >
+                          <MuiCollapseWrapperInner
+                            className="MuiCollapse-wrapperInner MuiCollapse-vertical"
+                            ownerState={
+                              Object {
+                                "children": <div
+                                  aria-labelledby="panel1a-header"
+                                  className="MuiAccordion-region"
+                                  id="panel1a-content"
+                                  role="region"
+                                >
+                                  <ForwardRef(AccordionDetails)>
+                                    <RootDisplay
+                                      currentRoot=""
+                                      item={
+                                        Object {
+                                          "characters": Array [],
+                                          "created": "",
+                                          "director": "",
+                                          "edited": "",
+                                          "episode_id": 0,
+                                          "opening_crawl": "",
+                                          "planets": Array [],
+                                          "producer": "",
+                                          "release_date": "",
+                                          "species": Array [],
+                                          "starships": Array [],
+                                          "title": "",
+                                          "url": "",
+                                          "vehicles": Array [],
+                                        }
+                                      }
+                                    />
+                                  </ForwardRef(AccordionDetails)>
+                                </div>,
+                                "collapsedSize": "0px",
+                                "in": false,
+                                "orientation": "vertical",
+                                "state": "exited",
+                                "timeout": "auto",
+                              }
+                            }
+                          >
+                            <Noop />
+                            <div
+                              className="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+                            >
+                              <div
+                                aria-labelledby="panel1a-header"
+                                className="MuiAccordion-region"
+                                id="panel1a-content"
+                                role="region"
+                              >
+                                <ForwardRef(AccordionDetails)
+                                  key=".1"
+                                >
+                                  <MuiAccordionDetailsRoot
+                                    className="MuiAccordionDetails-root"
+                                    ownerState={
+                                      Object {
+                                        "children": <RootDisplay
+                                          currentRoot=""
+                                          item={
+                                            Object {
+                                              "characters": Array [],
+                                              "created": "",
+                                              "director": "",
+                                              "edited": "",
+                                              "episode_id": 0,
+                                              "opening_crawl": "",
+                                              "planets": Array [],
+                                              "producer": "",
+                                              "release_date": "",
+                                              "species": Array [],
+                                              "starships": Array [],
+                                              "title": "",
+                                              "url": "",
+                                              "vehicles": Array [],
+                                            }
+                                          }
+                                        />,
+                                      }
+                                    }
+                                  >
+                                    <Noop />
+                                    <div
+                                      className="MuiAccordionDetails-root css-15v22id-MuiAccordionDetails-root"
+                                    >
+                                      <RootDisplay
+                                        currentRoot=""
+                                        item={
+                                          Object {
+                                            "characters": Array [],
+                                            "created": "",
+                                            "director": "",
+                                            "edited": "",
+                                            "episode_id": 0,
+                                            "opening_crawl": "",
+                                            "planets": Array [],
+                                            "producer": "",
+                                            "release_date": "",
+                                            "species": Array [],
+                                            "starships": Array [],
+                                            "title": "",
+                                            "url": "",
+                                            "vehicles": Array [],
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </MuiAccordionDetailsRoot>
+                                </ForwardRef(AccordionDetails)>
+                              </div>
+                            </div>
+                          </MuiCollapseWrapperInner>
+                        </div>
+                      </MuiCollapseWrapper>
+                    </div>
+                  </MuiCollapseRoot>
+                </Transition>
+              </ForwardRef(Collapse)>
+            </div>
+          </MuiPaperRoot>
+        </ForwardRef(Paper)>
+      </MuiAccordionRoot>
+    </ForwardRef(Accordion)>
+  </div>
+</ItemAccordion>
+`;
