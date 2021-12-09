@@ -1,5 +1,3 @@
-import React from "react";
-
 import { takeLatest, all, put } from "typed-redux-saga";
 import { watcherSaga, fetchArrayRootAsync, getAllUrls } from "./saga";
 import {
