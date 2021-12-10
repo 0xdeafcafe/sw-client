@@ -1,7 +1,12 @@
-import React from 'react';
+
+import React, {ReactNode} from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 
-const App = ({ children }) => (
+interface AppProps {
+	children: ReactNode;
+  }
+
+const App: React.FC<AppProps> = ({ children }) => (
 	<div className={'App'}>
 		<Navbar
 			color={'light'}

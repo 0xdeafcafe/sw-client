@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <div
+      className="App"
+    >
+      <Navbar
+        color="light"
+        expand={false}
+        light={true}
+        tag="nav"
+      >
+        <nav
+          className="navbar navbar-light bg-light"
+        >
+          <NavbarBrand
+            href="/"
+            tag="a"
+          >
+            <a
+              className="navbar-brand"
+              href="/"
+            >
+              Star Wars Client
+            </a>
+          </NavbarBrand>
+        </nav>
+      </Navbar>
+      <Container
+        className="pt-5"
+        tag="div"
+      >
+        <div
+          className="pt-5 container"
+        />
+      </Container>
+    </div>
+  </App>
+</Provider>
+`;

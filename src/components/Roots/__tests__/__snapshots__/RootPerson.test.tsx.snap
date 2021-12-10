@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <RootPerson
+    isItemFavourite={false}
+    item={
+      Object {
+        "birth_year": "",
+        "created": "",
+        "edited": "",
+        "eye_color": "",
+        "films": Array [
+          "test",
+        ],
+        "gender": "",
+        "hair_color": "",
+        "height": "",
+        "homeworld": "",
+        "mass": "",
+        "name": "",
+        "skin_color": "",
+        "species": Array [
+          "test",
+        ],
+        "starships": Array [
+          "test",
+        ],
+        "url": "",
+        "vehicles": Array [
+          "test",
+        ],
+      }
+    }
+    setIsItemFavourite={[Function]}
+  >
+    <div>
+      <styled.div
+        onClick={[Function]}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bdVaJa",
+                "isStatic": false,
+                "lastClassName": "hEXTsB",
+                "rules": Array [
+                  "
+  margin-left: 3px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bdVaJa",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+        >
+          <div
+            className="sc-bdVaJa hEXTsB"
+            onClick={[Function]}
+          >
+            <ForwardRef(FavoriteBorderIcon)>
+              <ForwardRef(SvgIcon)
+                data-testid="FavoriteBorderIcon"
+              >
+                <MuiSvgIconRoot
+                  aria-hidden={true}
+                  as="svg"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium"
+                  data-testid="FavoriteBorderIcon"
+                  focusable="false"
+                  ownerState={
+                    Object {
+                      "children": <path
+                        d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                      />,
+                      "color": "inherit",
+                      "component": "svg",
+                      "data-testid": "FavoriteBorderIcon",
+                      "fontSize": "medium",
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                >
+                  <Noop />
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="FavoriteBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                    />
+                  </svg>
+                </MuiSvgIconRoot>
+              </ForwardRef(SvgIcon)>
+            </ForwardRef(FavoriteBorderIcon)>
+          </div>
+        </StyledComponent>
+      </styled.div>
+      <div>
+        <p>
+          Name: 
+        </p>
+        <p>
+          Year of Birth: 
+        </p>
+        <p>
+          Eye Colour: 
+        </p>
+        <p>
+          Gender: 
+        </p>
+        <p>
+          Hair Colour: 
+        </p>
+        <p>
+          Height: 
+        </p>
+        <p>
+          Eye Colour: 
+        </p>
+        <p>
+          Mass: 
+        </p>
+        <p>
+          Skin Colour: 
+        </p>
+      </div>
+      <Modal
+        displayName="Films"
+        item={
+          Array [
+            "test",
+          ]
+        }
+        result={[Function]}
+      >
+        <div>
+          <Styled(Button)
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+            type="button"
+          >
+            <Noop />
+            <Button
+              className="css-bjdol9"
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              <button
+                aria-label={null}
+                className="css-bjdol9 btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Films
+              </button>
+            </Button>
+          </Styled(Button)>
+          <Styled(ForwardRef(ModalUnstyled))
+            BackdropComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": [Function],
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                  [Function],
+                  "",
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              }
+            }
+            aria-describedby="unstyled-modal-description"
+            aria-labelledby="unstyled-modal-title"
+            onClose={[Function]}
+            open={false}
+          >
+            <Noop />
+            <ForwardRef(ModalUnstyled)
+              BackdropComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                    [Function],
+                    "",
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              aria-describedby="unstyled-modal-description"
+              aria-labelledby="unstyled-modal-title"
+              className="css-497lzk"
+              onClose={[Function]}
+              open={false}
+            />
+          </Styled(ForwardRef(ModalUnstyled))>
+        </div>
+      </Modal>
+      <Modal
+        displayName="Starships"
+        item={
+          Array [
+            "test",
+          ]
+        }
+        result={[Function]}
+      >
+        <div>
+          <Styled(Button)
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+            type="button"
+          >
+            <Noop />
+            <Button
+              className="css-bjdol9"
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              <button
+                aria-label={null}
+                className="css-bjdol9 btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Starships
+              </button>
+            </Button>
+          </Styled(Button)>
+          <Styled(ForwardRef(ModalUnstyled))
+            BackdropComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": [Function],
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                  [Function],
+                  "",
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              }
+            }
+            aria-describedby="unstyled-modal-description"
+            aria-labelledby="unstyled-modal-title"
+            onClose={[Function]}
+            open={false}
+          >
+            <Noop />
+            <ForwardRef(ModalUnstyled)
+              BackdropComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                    [Function],
+                    "",
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              aria-describedby="unstyled-modal-description"
+              aria-labelledby="unstyled-modal-title"
+              className="css-497lzk"
+              onClose={[Function]}
+              open={false}
+            />
+          </Styled(ForwardRef(ModalUnstyled))>
+        </div>
+      </Modal>
+      <Modal
+        displayName="Species"
+        item={
+          Array [
+            "test",
+          ]
+        }
+        result={[Function]}
+      >
+        <div>
+          <Styled(Button)
+            color="secondary"
+            onClick={[Function]}
+            tag="button"
+            type="button"
+          >
+            <Noop />
+            <Button
+              className="css-bjdol9"
+              color="secondary"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              <button
+                aria-label={null}
+                className="css-bjdol9 btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Species
+              </button>
+            </Button>
+          </Styled(Button)>
+          <Styled(ForwardRef(ModalUnstyled))
+            BackdropComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": [Function],
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                  [Function],
+                  "",
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              }
+            }
+            aria-describedby="unstyled-modal-description"
+            aria-labelledby="unstyled-modal-title"
+            onClose={[Function]}
+            open={false}
+          >
+            <Noop />
+            <ForwardRef(ModalUnstyled)
+              BackdropComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                    [Function],
+                    "",
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              aria-describedby="unstyled-modal-description"
+              aria-labelledby="unstyled-modal-title"
+              className="css-497lzk"
+              onClose={[Function]}
+              open={false}
+            />
+          </Styled(ForwardRef(ModalUnstyled))>
+        </div>
+      </Modal>
+    </div>
+  </RootPerson>
+</Provider>
+`;

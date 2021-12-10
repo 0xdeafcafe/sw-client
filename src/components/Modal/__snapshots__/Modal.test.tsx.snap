@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has the correct text displayed 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Modal
+    displayName="Species"
+    item={
+      Array [
+        "https://swapi.dev/api/species/2/",
+      ]
+    }
+    result={[Function]}
+  >
+    <div>
+      <Styled(Button)
+        color="secondary"
+        onClick={[Function]}
+        tag="button"
+        type="button"
+      >
+        <Noop />
+        <Button
+          className="css-bjdol9"
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          <button
+            aria-label={null}
+            className="css-bjdol9 btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            Species
+          </button>
+        </Button>
+      </Styled(Button)>
+      <Styled(ForwardRef(ModalUnstyled))
+        BackdropComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": [Function],
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+              [Function],
+              "",
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          }
+        }
+        aria-describedby="unstyled-modal-description"
+        aria-labelledby="unstyled-modal-title"
+        onClose={[Function]}
+        open={false}
+      >
+        <Noop />
+        <ForwardRef(ModalUnstyled)
+          BackdropComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": [Function],
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                "
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+",
+                [Function],
+                "",
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            }
+          }
+          aria-describedby="unstyled-modal-description"
+          aria-labelledby="unstyled-modal-title"
+          className="css-497lzk"
+          onClose={[Function]}
+          open={false}
+        />
+      </Styled(ForwardRef(ModalUnstyled))>
+    </div>
+  </Modal>
+</Provider>
+`;
